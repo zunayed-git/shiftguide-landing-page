@@ -1,0 +1,297 @@
+body
+{
+    font-family: "Lato", sans-serif;
+    color: #697b8c;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: "PT Serif Caption", serif;
+    color: #212b36;
+}
+
+.text-primary
+{
+    color: #2683a8 !important;
+}
+
+#sgalp-main-header
+{
+    background-image: url("../images/header-background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sgalp-main-header h1
+{
+    color: #fff;
+}
+
+#sgalp-main-header,
+.navbar-brand,
+#sgalp-main-header .nav-item a:not(.dropdown-menu a)
+{
+    color: #fff !important;
+}
+
+.navbar-toggler
+{
+    border: 1px solid #fff;
+}
+
+#sgalp-main-header header
+{
+    margin-top: 5em;
+    margin-bottom: 30em;
+}
+
+#sgalp-logo
+{
+    width: 3.5em;
+}
+
+#sgalp-product-img img
+{
+    width: 100%;
+    margin-top: -27em;
+}
+
+#sgalp-product-img
+{
+    /* margin-bottom: 10em; */
+}
+
+#sgalp-main-header h1
+{
+    text-shadow: 1px 0px 2px rgba(0,0,0,0.4);
+}
+
+#sgalp-main-header .lead
+{
+    color: #d5eded;
+}
+
+.sgalp-button-style-1
+{
+    background: linear-gradient(to right, #3bb9bf, #53f5d1);
+    transition: all 1s;
+    border: 1px solid #11b3ce;
+}
+
+.sgalp-button-style-1:hover
+{
+    background: #3bb9bf;
+}
+
+#sgalp-company-used
+{
+    background-color: #fff;
+    margin-top: -4em;
+    z-index: 1000;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+}
+
+.sgalp-section-bordered
+{
+    border-top: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.sgalp-full-width
+{
+    width: 100%;
+}
+
+#sgalp-product-features header
+{
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.sgalp-product-feature-card
+{
+    width: 90%;
+    display: inline-block;
+}
+
+#sgalp-product-features
+{
+    margin-bottom: 3em;
+}
+
+#sgalp-product-features-description
+{
+    margin-bottom: 4em;
+    padding-bottom: 4em;
+}
+
+.sgalp-img-full-width img
+{
+    width: 100%;
+}
+
+.sgalp-product-features-description-img img
+{
+    width: 70%;
+}
+
+.sgalp-product-features-description-wrapper
+{
+    margin-top: 5em;
+}
+
+.sgalp-product-features-description-card
+{
+    margin-top: 2em;
+}
+
+.sgalp-product-features-description-img-sm
+{
+    display: none;
+}
+
+#sgalp-pricing
+{
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 4em;
+    background-image: url("../images/pricing-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+.sgalp-text-style-1
+{
+
+  background: #41c6a7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #41c6a7, #1a5b94); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #41c6a7, #1a5b94); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#sgalp-pricing ul
+{
+    list-style-image: url('../images/tick.svg');
+    padding-left: 1em;
+    line-height: 2em;
+}
+
+.sgalp-text-end
+{
+    text-align: end;
+}
+
+.sgalp-bg-light
+{
+    background: #fff !important;
+}
+
+#sgalp-footer-logo
+{
+    width: 5em;
+}
+
+footer
+{
+    font-size: 0.8em;
+}
+
+footer ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li
+{
+    display: inline-block;
+}
+
+footer nav a
+{
+    text-decoration: none;
+}
+
+footer nav a:hover
+{
+    text-decoration: underline;
+}
+
+footer
+{
+    font-weight: 300;
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    #sgalp-main-header
+    {
+        background-image: none;
+        background: linear-gradient(to right top, #41c6a7, #1a5b94);
+    }
+
+    #sgalp-main-header header
+    {
+        margin-top: 5em;
+        margin-bottom: 20em;
+    }
+
+    #sgalp-product-img img
+    {
+        width: 100%;
+        margin-top: -20em;
+    }
+
+    #sgalp-company-used
+    {
+        display: block;
+        position: relative;
+        width: 100%;
+        margin-top: 4em;
+        margin-bottom: 4em;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+    }
+
+    #sgalp-product-features header
+    {
+        margin-top: 0em;
+    }
+
+    .sgalp-product-feature-card
+    {
+        width: 80%;
+    }
+
+    .sgalp-product-features-description-img
+    {
+        display: none;
+    }
+
+    .sgalp-product-features-description-img-sm
+    {
+        display: block;
+    }
+
+    .sgalp-product-features-description-img-sm img
+    {
+        width: 80%;
+    }
+
+    .sgalp-product-features-description-wrapper
+    {
+        margin-top: 2em;
+    }
+
+    footer *
+    {
+        text-align: center !important;
+    }
+}
